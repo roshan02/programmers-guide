@@ -1,0 +1,3 @@
+I am implementing my own idea.
+I am designing a website for new comers who want to learn programming but don't know where to start from and don't have any idea about where to study from. I am designing a website which will give users a lot freely available material at one place and direction to where to study from.
+I am not sure how much more time it will take but if time permits i may do unit conversion website also but I haven't thought anything about it till now because I am thinking of taking things one by one doing less but nice and helpfull which will be used by students and will not stay just as an assignment or task.
