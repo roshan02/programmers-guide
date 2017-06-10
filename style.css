@@ -10,8 +10,8 @@ html {
 header {
 	background: linear-gradient(to top, rgba(255,0,50, 1), rgba(205,0,0,0.55));
 	text-align: center;
-	height: 125px	!important;
-	padding-top: 0.1px;
+	height: 9vw	!important;
+	padding-top: 0.01vw;
 }
 main {
   //flex: 1 0 auto 	!important;
@@ -27,28 +27,35 @@ main {
   transition: transform .7s ease-in-out;
   border-radius: 0px 10px 10px 0px;
 }
+.heading {
+	font-size:5vw;
+}
+.content_head {
+	font-size:4vw;
+}
 
 .sidebar {
+  //z-index: 3;
   height: 100%;
-  width: 300px;		/*sidebar width*/
+  width: 20%;		/*sidebar width*/
   //margin-top: 125px;
   position: absolute;
-  top: 125px;
+  top: 9vw;
   z-index: 1;
   right: 0;
   //background-color: #EF8354;
   //background-color: rgba(61,57,204,0.91);
   background: linear-gradient(to right, rgba(50,0,200, 0.85), rgba(0,0,50,0.55));
-  border-radius: 10px;
+  border-radius: 0.7vw;
 }
 
 .bar {
   display: block;
-  height: 5px;
-  width: 50px;
+  height: 0.4vw;
+  width: 4vw;
   //background: linear-gradient(right left, rgba(255,0,50, 0.85), rgba(255,0,0,0.55));
   background-color: #0b1af3;
-  margin: 10px auto;
+  margin: 0.8vw auto;
 }
 
 .button {
@@ -65,8 +72,8 @@ main {
 
 .nav-right {
   position: fixed;
-  right: 40px;
-  top: 20px;
+  right: 3vw;
+  top: 0vw;
 }
 
 .nav-right.visible-xs {
@@ -122,29 +129,29 @@ main {
 /* below is code for making that arrow when sidebar moves left*/ 
 
 .button.active .top {
-   -webkit-transform: rotateZ(45deg) translateY(11px);
-   -moz-transform: rotateZ(45deg) translateY(11px);
-   -ms-transform: rotateZ(45deg) translateY(11px);
-   -o-transform: rotateZ(45deg) translateY(11px);
-   transform: rotateZ(45deg) translateY(11px);
-   width: 25px;
+   -webkit-transform: rotateZ(45deg) translateY(0.8vw);
+   -moz-transform: rotateZ(45deg) translateY(0.8vw);
+   -ms-transform: rotateZ(45deg) translateY(0.8vw);
+   -o-transform: rotateZ(45deg) translateY(0.8vw);
+   transform: rotateZ(45deg) translateY(0.8vw);
+   width: 1.8vw;
  }
  
  .button.active .middle {
-   -webkit-transform: translateX(-25px);
-   -moz-transform: translateX(-25px);
-   -ms-transform: translateX(-25px);
-   -o-transform: translateX(-25px);
-   transform: translateX(-25px);
+   -webkit-transform: translateX(-1.8vw);
+   -moz-transform: translateX(-1.8vw);
+   -ms-transform: translateX(-1.8vw);
+   -o-transform: translateX(-1.8vw);
+   transform: translateX(-1.8vw);
  }
  
  .button.active .bottom {
-   -webkit-transform: rotateZ(-45deg) translateY(-11px);
-   -moz-transform: rotateZ(-45deg) translateY(-11px);
-   -ms-transform: rotateZ(-45deg) translateY(-11px);
-   -o-transform: rotateZ(-45deg) translateY(-11px);
-   transform: rotateZ(-45deg) translateY(-11px);
-   width: 25px;
+   -webkit-transform: rotateZ(-45deg) translateY(-0.8vw);
+   -moz-transform: rotateZ(-45deg) translateY(-0.8vw);
+   -ms-transform: rotateZ(-45deg) translateY(-0.8vw);
+   -o-transform: rotateZ(-45deg) translateY(-0.8vw);
+   transform: rotateZ(-45deg) translateY(-0.8vw);
+   width: 1.8vw;
  }
  
 
@@ -157,18 +164,19 @@ main {
 
 
 .move-to-left {
-  -webkit-transform: translateX(-300px);		//sidebar width
-  -moz-transform: translateX(-300px);
-  -ms-transform: translateX(-300px);
-  -o-transform: translateX(-300px);
-  transform: translateX(-300px);
+  -webkit-transform: translateX(-20%);		//sidebar width
+  -moz-transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  -o-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 nav {							//navigation bar
-  margin-top: 125px;
-  padding: 05px;
-  height: 80px			!important;
+  margin-top: 9vw;
+  padding: 0;
+  height: 4vw			!important;
   background: rgb(129, 226, 239);
+  line-height: 2.2vw !important;
 }
 
 
@@ -178,18 +186,18 @@ nav {							//navigation bar
   margin: 0;
   list-style: none;
   position: relative;
-  margin-top: 150px;
+  margin-top: 10vw;
   text-align: center;
 }
 
 .sidebar-item {
-  margin: 30px 0;
+  margin: 2vw 0;
   opacity: 10;
-  -webkit-transform: translateY(-20px);
-  -moz-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  -o-transform: translateY(-20px);
-  transform: translateY(-20px);
+  -webkit-transform: translateY(-1.4vw);
+  -moz-transform: translateY(-1.4vw);
+  -ms-transform: translateY(-1.4vw);
+  -o-transform: translateY(-1.4vw);
+  transform: translateY(-1.4vw);
 }
 
 .sidebar-item:first-child {
@@ -240,13 +248,13 @@ nav {							//navigation bar
   font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 7px;
+  padding-bottom: 0.5vw;
 }
 
 .sidebar-anchor:before {
   content: "";
   width: 0;
-  height: 2px;
+  height: 0.125vw;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -264,8 +272,8 @@ nav {							//navigation bar
 
 .ua {
   position: absolute;
-  bottom: 20px;
-  left: 60px;
+  bottom: 1.8vw;
+  left: 4vw;
 }
 
 .fa {
@@ -292,13 +300,13 @@ nav {							//navigation bar
   transition: all 1s ease;
 }
 
-@media (min-width: 480px) {
+/*@media (min-width: 480px) {
   .nav-list {
     display: block;
   }
 }
-
-@media (min-width: 768px) {
+*/
+@media (min-width: 100px) {
   .nav-right {
     position: absolute;
   }
@@ -317,9 +325,9 @@ nav ul{
 	white-space:nowrap;
 	display: flex;
 	flex: 1;
-	padding-top: 10px 	!important;
-	padding-bottom: 10px 	!important;
-	margin-right:110px	!important;
+	padding-top: 0.8vw 	!important;
+	padding-bottom: 0.8vw 	!important;
+	margin-right:8vw	!important;
 } 
 nav ul form {
 	padding-top:0;
@@ -327,39 +335,49 @@ nav ul form {
 nav ul li{
 	/*display: flex;*/
 	 flex:1;
-	height: 25px !important;
+	//height: 1.8vw !important;
 	text-decoration:none;	
 	list-style-type: none;		/*used to remove dots in front of list elements*/
-	border-radius:20px;
+	border-radius:1.4vw;
 	background-color:#31ff00;
-	padding-bottom: 45px 	!important;
+	//padding-bottom: 3.5vw 	!important;
 	font-weight: bold;
-	margin-right: 40px;
+	margin-right: 2.5vw;
 	text-align: center;	 
 }
 iframe {
-	margin-left: 100px;
+	margin-left: 9vw;
 	//padding: 05px;
-	border: 05px black solid;
+	border: 0.45vw black solid;
+	width: 45vw;
+	height:25vw;
 }
 .card1 {
-	width: 525px	!important;
-	margin-left: 100px !important;
+	width: 40vw	!important;
+	margin-left: 8vw !important;
 	float: left;
+	font-size:1.05vw !important;
+	text-align:justify;
 }
 .card1 h2{
-	font-size: 35px;
+	font-size: 2.5vw;
 }
 .card2 {
-	width: 500px	!important;
-	margin-left: 100px !important;
+	width: 40vw	!important;
+	margin-left: 6vw !important;
 	float: left;
+	font-size:1.05vw;
+	text-align: justify;
 }
 .card2 h2{
-	font-size: 35px;
+	font-size: 2.5vw;
 }
 
 
 .clearfix{
     clear:both
+}
+
+nav ul a {
+    font-size: 1.5vw !important;
 }

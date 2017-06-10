@@ -15,6 +15,12 @@ header {
 	position: fixed;
 	width:100%
 }
+nav {
+	margin-top:107px;
+}
+.brand-logo {
+	margin-right: 100px;
+}
 .heading {
 	//vertical-align:middle !important;
 	font-size: 50px	!important;
@@ -30,7 +36,10 @@ body {
     flex-direction: column;
   }
 
-  main {
+main {
     flex: 1 0 auto;
     height: 1000px;
-  }
+}
+
+
+
