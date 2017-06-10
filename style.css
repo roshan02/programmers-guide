@@ -353,8 +353,8 @@ iframe {
 	height:25vw;
 }
 .card1 {
-	width: 43vw	!important;
-	margin-left: 6vw !important;
+	width: 44vw	!important;
+	margin-left: 4vw !important;
 	float: left;
 	font-size:1.05vw !important;
 	text-align:justify;
@@ -363,8 +363,8 @@ iframe {
 	font-size: 2.5vw;
 }
 .card2 {
-	width: 40vw	!important;
-	margin-left: 6vw !important;
+	width: 41.5vw	!important;
+	margin-left: 4vw !important;
 	float: left;
 	font-size:1.05vw;
 	text-align: justify;
@@ -372,7 +372,14 @@ iframe {
 .card2 h2{
 	font-size: 2.5vw;
 }
+.card1 p {
+    display: block;
+    -webkit-margin-before: 0 !important;
+    -webkit-margin-after: 0 !important;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 
+}
 
 .clearfix{
     clear:both
