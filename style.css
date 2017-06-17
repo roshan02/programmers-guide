@@ -25,10 +25,11 @@ main {
   -ms-transition: transform .7s ease-in-out;
   -o-transition: transform .7s ease-in-out;
   transition: transform .7s ease-in-out;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0.8vw 0.8vw 0px;
 }
 .heading {
-	font-size:5vw;
+	font-size:4vw;
+	margin: 1.5vw !important;
 }
 .content_head {
 	font-size:4vw;
@@ -321,7 +322,7 @@ nav {							//navigation bar
 
 
 nav ul{
-	overflow-x:hidden;
+	overflow-x:visible;
 	white-space:nowrap;
 	display: flex;
 	flex: 1;
@@ -387,4 +388,9 @@ iframe {
 
 nav ul a {
     font-size: 1.5vw !important;
+}
+@media only screen and (max-width: 800px) {
+    #btn {
+        display: none;
+    }
 }
