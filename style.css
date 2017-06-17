@@ -322,7 +322,7 @@ nav {							//navigation bar
 
 
 nav ul{
-	overflow-x:visible;
+	//overflow-x:scroll;
 	white-space:nowrap;
 	display: flex;
 	flex: 1;
@@ -339,11 +339,11 @@ nav ul li{
 	//height: 1.8vw !important;
 	text-decoration:none;	
 	list-style-type: none;		/*used to remove dots in front of list elements*/
-	border-radius:1.4vw;
+	border-radius:1vw;
 	background-color:#31ff00;
 	//padding-bottom: 3.5vw 	!important;
 	font-weight: bold;
-	margin-right: 2.5vw;
+	margin-right: 0.5vw;
 	text-align: center;	 
 }
 iframe {
@@ -355,7 +355,7 @@ iframe {
 }
 .card1 {
 	width: 44vw	!important;
-	margin-left: 4vw !important;
+	margin-left: 3vw !important;
 	float: left;
 	font-size:1.05vw !important;
 	text-align:justify;
@@ -364,7 +364,7 @@ iframe {
 	font-size: 2.5vw;
 }
 .card2 {
-	width: 41.5vw	!important;
+	width: 43vw	!important;
 	margin-left: 4vw !important;
 	float: left;
 	font-size:1.05vw;
@@ -388,6 +388,7 @@ iframe {
 
 nav ul a {
     font-size: 1.5vw !important;
+    color:blue !important;
 }
 @media only screen and (max-width: 800px) {
     #btn {
