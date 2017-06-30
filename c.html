@@ -1,7 +1,7 @@
 <head>
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<link href = "style_c.css" rel = "stylesheet" type = "text/css">
+	<link href = "style_java.css" rel = "stylesheet" type = "text/css">
 	<script src = "main_py.js" type = "text/javascript"></script>
 	
 	
@@ -24,13 +24,48 @@
 <main class = "main">
 <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo right">Home</a>
-      <ul>
-        <li class="active"><a href="c.html">C</a></li>
+      <a href="index.html"  class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Back To Home">Home</a>
+
+<!--this is hamburger button-->
+<div class = "hambutton">
+      <ul id="slide-out" class="side-nav">
+      
+      <li><div class="user-view">
+      <div class="background">
+        <img src="images/java1.jpg">
+      </div>
+      <a href="#!user" ><img class="circle" src="images/roshan1.jpg"></a>
+      <a href="#!name"><span class="white-text name">Roshan Nalawade</span></a>
+      <a href="#!email"><span class="white-text email">dn.roshan2@gmail.com</span></a>
+    </div></li>
+      
+      
+        <li><a href="c.html">c</a></li>
         <li><a href="python.html">PYTHON</a></li>
         <li><a href="java.html">JAVA</a></li>
         <li><a href="javascript.html">JAVASCRIPT</a></li>
-        <li><a href="webdev.html">WEB DEV</a></li>
+        <li><a href="webdev.html">WEB-DEV</a></li>
+        <li><a href="android.html">ANDROID</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+      </ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+</div>
+
+      <ul class = "nav-list">
+        <li class="active"><a href="c.html">C</a></li>
+        <li><a href="python.html">PYTHON</a></li>
+        <li ><a href="java.html">JAVA</a></li>
+        <li><a href="javascript.html" >JAVASCRIPT</a></li>
+        <li><a href="webdev.html" class='dropdown-button' data-activates='dropdown1'>WEB-DEV<i class = "material-icons"> play_for_work</i></a></li>
+        	<ul id='dropdown1' class='dropdown-content'>
+		<li><a href="webdev.html" >HTML</a></li>
+ 		<li><a href="webdev.html">CSS</a></li>
+ 		<li class="divider"></li>
+  	  	<li><a href="webdev.html">PHP</a></li>
+   	 	<li><a href="webdev.html"><i class="material-icons">view_module</i>MYSQL</a></li>
+    		<li><a href="webdev.html" style="font-size:1.2vw !important;"><i class="material-icons">cloud</i>CLOUD-PALTFORM</a></li>
+		</ul>
+        
         <li><a href="android.html">ANDROID</a></li>
         <li><a href="projects.html">PROJECTS</a></li>
       </ul>
