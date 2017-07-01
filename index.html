@@ -1,9 +1,8 @@
-<html>
 <head>
 	
 	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
-	<link href = "style.css" rel = "stylesheet" type = "text/css">
-	<script src = "main.js" type = "text/javascript"></script>
+	<link href = "style_java.css" rel = "stylesheet" type = "text/css">
+	<script src = "main_py.js" type = "text/javascript"></script>
 	
 	
 	<!--Import Google Icon Font-->
@@ -21,68 +20,153 @@
 <header>
 	<h1 class = "heading"> Programmer's Guide</h1>
 </header>
-<div class="nav-right visible-xs">
-  <div class="button" class = "btn btn-floating pulse" id="btn">
-    <div class="bar top"></div>
-    <div class="bar middle"></div>
-    <div class="bar bottom"></div>
-  </div>
+
+<main class = "main">
+<nav>
+    <div class="nav-wrapper">
+     
+
+<!--this is hamburger button-->
+<div class = "hambutton">
+      <ul id="slide-out" class="side-nav">
+      
+      <li><div class="user-view">
+      <div class="background">
+        <img src="images/java1.jpg">
+      </div>
+      <a href="#!user" ><img class="circle" src="images/roshan2.jpg"></a>
+      <a href="#!name"><span class="white-text name">Roshan Nalawade</span></a>
+      <a href="#!email"><span class="white-text email">dn.roshan2@gmail.com</span></a>
+    </div></li>
+      
+      
+        <li><a href="c.html">C</a></li>
+        <li><a href="c++.html">C++</a></li>
+        <li><a href="python.html">PYTHON</a></li>
+        <li><a href="java.html">JAVA</a></li>
+        <li><a href="javascript.html">JAVASCRIPT</a></li>
+        <li><a href="webdev.html">WEB-DEV</a></li>
+        <li><a href="android.html">ANDROID</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+      </ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 </div>
 
-
-
-
-
-
-
-
-<!-- nav-right -->
-<main>
-
-
-  <nav>
-  			<ul>
-				<li><a href = "index.html">HOME</a></li>
-				<li><a href = "c.html">C</a></li>
-				<li><a href = "python.html">PYTHON</a></li>
-				<li><a href = "java.html">JAVA</a></li>
-				<li><a href = "javascript.html">JAVASCRIPT</a></li>
-				<li><a href = "webdev.html">WEB DEV</a></li>
-				<li><a href = "projects.html">PROJECTS</a></li>
-				
-			</ul>
-    <div class="nav-right hidden-xs">
-      <div class="button"  id="btn">
-        <div class="bar top"></div>
-        <div class="bar middle"></div>
-        <div class="bar bottom"></div>
-      </div>
+      <ul class = "nav-list">
+        <li><a href="c.html">C</a></li>
+        <li><a href="c++.html">C++</a></li>
+        <li><a href="python.html">PYTHON</a></li>
+        <li ><a href="java.html">JAVA</a></li>
+        <li><a href="javascript.html" >JAVASCRIPT</a></li>
+        <li><a href="webdev.html" class='dropdown-button' data-activates='dropdown1'>WEB-DEV<i class = "material-icons"> play_for_work</i></a></li>
+        	<ul id='dropdown1' class='dropdown-content'>
+		<li><a href="webdev.html" >HTML</a></li>
+ 		<li><a href="webdev.html">CSS</a></li>
+ 		<li class="divider"></li>
+  	  	<li><a href="webdev.html">PHP</a></li>
+   	 	<li><a href="webdev.html"><i class="material-icons">view_module</i>MYSQL</a></li>
+    		<li><a href="webdev.html" style="font-size:1.2vw !important;"><i class="material-icons">cloud</i>CLOUD-PALTFORM</a></li>
+		</ul>
+        
+        <li><a href="android.html">ANDROID</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+      </ul>
     </div>
-    <!-- nav-right -->
-  </nav>
-  <content>
-  	<h2 class = "content_head" align = "center"> Why Learn Programming </h2>
-  	<iframe width="560" height="315" src="https://www.youtube.com/embed/STRPsW6IY8k" frameborder="0" allowfullscreen></iframe>
-  </content>
-  	
+</nav>
 
-  <a href="https://codepen.io/tonkec/" class="ua" target="_blank">
-    <i class="fa fa-user"></i>
-  </a>
+
+	
+	<!--picture slider-->
+	
+<div class="slider" id = "content1">
+    <ul class="slides">
+      <li>
+        <img src="images/prog1.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3></h3>
+          <h5 class=" black-text text-lighten-3"><br><br><br><br><br><br>"Don’t worry if it doesn’t work right.<br> If everything did, you’d be out of a job"</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/nature1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/nature2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/nature3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/nature4.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/pexels1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/prog.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+</div>
+
+	
+	<!--picture slider end--->
+<div class = "row-temp">
+<div class="row">
+    <div class="col s12 m9 l10">
+
+      <div id="content2" class="section scrollspy">
+        <content>
+        <div class = "top_heading">
+  	<h5 class = "content_head" align = "center"> Why Learn Programming </h5>
+  	<iframe width="560" height="315" src="https://www.youtube.com/embed/STRPsW6IY8k" frameborder="0" allowfullscreen></iframe>
+  	</div>
+  	</content>
+      </div>
+      <div id="content3" class="section scrollspy">
+        
+       
+         
+      </div>
+      
+      
+  </div>
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents">
+        <li><a href="#content1">Slider</a></li>
+        <li><a href="#content2">Why Learn Programming</a></li>
+        <li><a href="#content3"></a>Quotes and images</li>
+      </ul>
+    </div>
+  </div> 
+ </div>
 </main>
 
-<div class="sidebar">
-  <ul class="sidebar-list">
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 1</a></li>
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 2</a></li>
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 3</a></li>
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 4</a></li>
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 5</a></li>
-    <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 6</a></li>
-  </ul>
-</div>
-
-<!--Cards Showing quotes of Obama and steve jobs-->
+ <!--Cards Showing quotes of Obama and steve jobs-->
+<div class = "oneline">
 <card class = "card1">
 <div class="col s12 m7">
     <h2 class="header">Barack Obama</h2>
@@ -115,9 +199,13 @@ It's like going to law school. I don't think anybody should be a lawyer, but goi
     </div>
   </div>
 </card>
+</div>
 <div class="clearfix"></div>
 
-<!--Page footer-->
+
+
+
+
 <footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -142,6 +230,6 @@ It's like going to law school. I don't think anybody should be a lawyer, but goi
             <a class="grey-text text-lighten-4 right" href="https://www.gmail.com">Email: Roshan</a>
             </div>
           </div>
-        </footer>
+</footer>
 </body>
 </html>

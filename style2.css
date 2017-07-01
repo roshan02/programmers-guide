@@ -6,21 +6,6 @@ html {
   margin: 0;
   font-family: 'Arimo', sans-serif;
 }
-
-/*header {
-	background: linear-gradient(to top, rgba(255,0,50, 1), rgba(205,0,0,0.55));
-	text-align: center;
-	height: 8.7vw	!important;
-	//padding-bottom: 10px !important;
-	position: absolute;
-	width:100%
-}
-nav {
-	margin-top:8.7vw;
-	height:4.5vw !important;
-	line-height: 4.5vw !important;	
-}*/
-
 @media only screen and (min-width: 550px) {
 header {
 	background: linear-gradient(to top, rgba(255,0,50, 1), rgba(205,0,0,0.55));
@@ -55,7 +40,6 @@ nav {
 	line-height: 4.5vw !important;	
 }
 } 
-
 nav ul a {
 	font-size: 1.8vw !important;
 	padding: 0 1.2vw !important;
@@ -74,12 +58,6 @@ nav ul a {
 .brand-logo {
 	margin-right: 100px;
 }
-/*.heading {
-	//vertical-align:middle !important;
-	font-size: 4vw	!important;
-	//text-align: center;
-	margin: 1.5vw !important;
-}*/
 @media only screen and (min-width: 550px) {
 .heading {
 	//vertical-align:middle !important;
@@ -97,40 +75,37 @@ nav ul a {
 	margin: 1.5vw !important;
 }
 }
+
 .page_footer {
 	bottom: 0;
 	position: absolute;
 }
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
   }
 
 main {
     flex: 1 0 auto;
-   // height: 1000px;		//temporary
-}
-.dropdown-button {
-	background-color: #ee6e73 !important;
+    //height: 1000px;		//temporary
 }
 .table-of-contents a {
 	//color: white !important;
 	font-size: 1.5vw !important;
 }
-.row-temp {
-	background-color: white !important;//or use thistle
-}
-.slider {
-	background-color: thistle;
+
+.dropdown-button {
+	background-color: #ee6e73 !important;
 }
 
-/*nav i.material-icons {
-	font-size: 3vw !important;
-	line-height: 4.9vw !important;
-	float :right !important;
-	text-align:right !important;
-}*/
+/*;//rgba(69,144,61,1) !important;*/
+.row-temp {
+	background-color: pink !important;//or use thistle
+}
+.slider {
+	background-color: pink;
+}
 @media only screen and (min-width: 550px) {
 nav i.material-icons {
 	font-size: 3vw !important;
@@ -147,7 +122,6 @@ nav i.material-icons {
 	text-align:right !important;
 }
 }
-
 /*nav ul li:hover {
 	background-color: rgba(238,110,115,0.5) !important;
 }*/
@@ -182,7 +156,7 @@ a.dropdown-button:hover {
 	left: 2vw;
 }
 .side-nav {
-	width: 60vw !important;
+	width: 70vw !important;
 	background: #50f7e9 !important;
 	text-align: center !important;
 
@@ -214,8 +188,8 @@ a.dropdown-button:hover {
 
 } 
 .side-nav li>a {
-	padding: 4vw !important;
-	font-size: 4vw !important;
+	padding: 5vw !important;
+	font-size: 6vw !important;
 	color: blue !important;
 	line-height: 1vw !important;	
 }
@@ -228,20 +202,25 @@ i.material-icons {
 i.material-icons:hover {
 	opacity: 0.5 !important;
 }
-
-
-
-@media only screen and (max-width: 550px) {
-	.nav-list {
-		display: none;
+@media only screen and (min-width: 550px) {
+	h2 {
+		font-size: 4.5vw !important;
 	}
 }
-@media only screen and (min-width: 550px) {
-	.hambutton {
-		display: none;
+@media only screen and (max-width: 550px) {
+	h2 {
+		font-size: 6.5vw !important;
 	}
- }
- #content3 {
+} 
+iframe {
+	margin-left: 6vw;
+	//padding: 05px;
+	border: 0.45vw black solid;
+	width: 50vw;
+	height:25vw;
+}
+
+#content3 {
 	width:90% !important;
 }
 @media only screen and (min-width: 550px) {
@@ -319,56 +298,15 @@ i.material-icons:hover {
 	//display: flex !important;
 	//flex-direction: row !important;
 }
-@media only screen and (min-width: 550px) {
-	.top_heading h5 {
-		font-size: 4.5vw !important;
-	}
-}
-@media only screen and (max-width: 550px) {
-	.top_heading h5 {
-		font-size: 6.5vw !important;
-	}
-} 
 
-@media only screen and (min-width: 550px) {
-	#content2 h2 {
-		font-size: 4.5vw !important;
-		text-align: center !important;
-		position: relative !important;
-		top: 8vw !important;
-	}
-}
-@media only screen and (max-width: 550px) {
-	#content2 h2 {
-		font-size: 6.5vw !important;
-		text-align: center !important;
-		position: relative !important;
-		top: 15vw !important;
-	}
-} 
-
-@media only screen and (min-width: 550px) {
-	h4 {
-		font-size: 2.5vw !important;
-		text-align: center !important;
-	}
-}
 
 @media only screen and (max-width: 550px) {
-	h4 {
-		font-size: 3.5vw !important;
-		text-align: center !important;
-		position:relative;
-		bottom: 22vw;
-	}
-} 
-
-@media only screen and (min-width: 750px)  {
-.carousel .carousel-item>img {
-	height: 22vw !important;
-	width: 19vw !important;
-	/*position:relative !important;
-	//alignment-baseline: central !important;
-	left: 50 !important;*/
+    .nav-list {
+        display: none;
+    }
 }
-}
+@media only screen and (min-width: 550px) {
+	.hambutton {
+    		display: none;
+    	}
+ }

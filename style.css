@@ -18,7 +18,7 @@ main {
   z-index: 2;
   position: relative;
   height: 100%;
-  background-color: #2D3142;
+  background-color: rgba(69,144,61,1);//#2D3142 earlier color
   //background: linear-gradient(right left, rgba(255,0,50, 0.85), rgba(255,0,0,0.55));
   -webkit-transition: transform .7s ease-in-out;
   -moz-transition: transform .7s ease-in-out;
