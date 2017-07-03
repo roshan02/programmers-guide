@@ -279,13 +279,13 @@ a.dropdown-button:hover {
 }
 .background img{  
     width: 100% !important;
-    height: 55vw !important;
+    height: 45vw !important;
 
 }
 .circle {
 	position:absolute;
 	z = 2;
-	top: 30vw;
+	top: 22vw;
 	left: 2vw;
 	height: 22vw !important;
 	width: 16vw !important;
