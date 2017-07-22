@@ -149,6 +149,10 @@ main {
 .table-of-contents a {
 	//color: white !important;
 	font-size: 1.5vw !important;
+	height: 2.6vw !important;
+}
+.table-of-contents li {
+	padding-bottom: 0.8vw !important;
 }
 .row-temp {
 	background-color: white !important;//or use thistle
@@ -305,9 +309,74 @@ i.material-icons {
 i.material-icons:hover {
 	opacity: 0.5 !important;
 }
+.row i.material-icons {
+	display: inherit !important;
+	font-size: 3.5vw !important;
+	height:inherit !important;
+	//line-height: 3.5vw !important;
+	vertical-align: middle !important;
+	opacity: inherit !important;
+}
+.collection .collection-item.avatar .circle {
+	position: static !important;
+	width: 42px !important;
+	height: 42px !important;
+	float:left !important;
+	border: none !important;
+}
+.collection .collection-item.avatar i.circle {
+	font-size: 18px !important;
+	line-height: 42px !important;
+	margin-right: 1.5vw;
+}
+.collection {
+	text-align:justify !important;
+}
+.collection .collection-item {
+	border-top: 1px solid #e0e0e0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(224, 224, 224);
+}
+.collection .collection-item:last-child {
+	border-bottom: 1px solid #e0e0e0 !important;
+}
+.collection .collection-item.avatar p {
+	padding-right: 7vw !important;
+	padding-left: 0vw;
+}
+.collection .collection-item.avatar {
+	padding-left: 1.5vw !important;
+}
+#introduction ul {
+	list-style-type:disc !important;
+}
 
-
-
+@media only screen and (min-width: 550px) {
+	#intro {
+		display:flex;
+		flex-direction:row;
+	}
+}
+@media only screen and (max-width: 550px) {
+	#intro {
+		display:flex;
+		flex-direction:column;
+	}
+}
+embed {
+	border: solid 1px !important;
+}
+@media only screen and (max-width: 550px) {
+embed {
+	width: 100% !important;
+}
+}
+#intro-text {
+	font-style: oblique;
+	text-align: justify;
+	margin-right:1vw;
+}
 @media only screen and (max-width: 550px) {
 	.nav-list {
 		display: none;
@@ -317,7 +386,18 @@ i.material-icons:hover {
 	.hambutton {
 		display: none;
 	}
- }
+}
+/*@media only screen and (min-width: 993px) {
+	nav a.button-collapse.index {
+	 	display: block !important;
+	}
+}*/
+@media only screen and (min-width: 993px){
+	.row .col.l2 {
+		position: fixed !important;
+		margin-left: 83% !important;
+	}
+}
  #content3 {
 	width:90% !important;
 }
